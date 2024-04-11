@@ -13,7 +13,7 @@ import com.table.zzimkong.service.*;
 import com.table.zzimkong.vo.*;
 
 @Controller
-public class MemberController {
+public class MemberController { 
 	
 	// MemberService 객체 자동 주입
 	@Autowired
