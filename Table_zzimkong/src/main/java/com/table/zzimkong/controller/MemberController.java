@@ -19,7 +19,7 @@ public class MemberController {
 	@Autowired
 	private MemberService service;
 	@Autowired
-	private SendMailService mailService;
+	private SendMailService mailService; 
 
 	@GetMapping("join/join")
 	public String join() {
